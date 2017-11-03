@@ -8,7 +8,6 @@ This is a 2D Video Game using SDL platform. It was written in C++ and applied wi
 
 use `make` to compile and link. Then use `./run` to run the game, and you will see the game menu:
 
-![Game Menu](https://user-images.githubusercontent.com/3967446/32359160-133055c8-c022-11e7-893d-12e6367f8b32.png)
 
 ## Description
 
