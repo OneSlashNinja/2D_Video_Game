@@ -6,8 +6,7 @@ This is a 2D Video Game using SDL platform. It was written in C++ and applied wi
 
 ## Run the game
 
-use `make` to compile and link. Then use `./run` to run the game, and you will see the game menu:
-
+use `make` to compile and link. Then use `./run` to run the game, and you will see the game menu.
 
 ## Description
 
