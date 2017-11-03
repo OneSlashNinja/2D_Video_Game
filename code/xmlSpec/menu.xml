@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<words>
+  <wordsNumber>5</wordsNumber>
+  <wordsX>300</wordsX>
+  <wordsY>100</wordsY>
+  <wordsSpaceX>80</wordsSpaceX>
+  <wordsSpaceY>80</wordsSpaceY>
+  <words0>Start Game</words0>
+  <words1>Tutorial</words1>
+  <words2>Help</words2>
+  <words3>Credits</words3>
+  <words4>Exit</words4>
+</words>
+
+<clickoff>
+  <clickoffFile>images/alienHold.png</clickoffFile>
+  <clickoffWidth>52</clickoffWidth>
+  <clickoffHeight>46</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clickoffTransparency>false</clickoffTransparency>
+</clickoff>
+
+<clickon>
+  <clickonFile>images/alienShoot.png</clickonFile>
+  <clickonWidth>74</clickonWidth>
+  <clickonHeight>40</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonTransparency>false</clickonTransparency>
+</clickon>
+
+<bgImage>images/menuBg.jpg</bgImage>
+
+</MenuSpec>

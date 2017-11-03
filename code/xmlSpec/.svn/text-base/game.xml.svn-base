@@ -1,0 +1,51 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>1280</worldWidth>
+  <worldHeight>960</worldHeight>
+</screen>
+
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>14</fontSize>
+</Font>
+<maxStringSize>50</maxStringSize>
+
+<background>
+  <back>images/checkerboard.bmp</back>
+  <viewWidth>1280</viewWidth>
+  <viewHeight>960</viewHeight>
+</background>
+
+<redorb>
+  <redorbFile>images/redball.bmp</redorbFile>
+  <redorbSrcX>0</redorbSrcX>
+  <redorbSrcY>0</redorbSrcY>
+  <redorbWidth>32</redorbWidth>
+  <redorbHeight>32</redorbHeight>
+  <redorbLoc redorbX="10" redorbY="10"/>
+  <redorbSpeed redorbXspeed="250" redorbYspeed="250"/>
+  <redorbMaxSpeed redorbMaxXspeed="350" redorbMaxYspeed="300"/>
+  <redorbTransparency>true</redorbTransparency>
+</redorb>
+
+<yelloworb>
+  <yelloworbFile>images/yellowball.bmp</yelloworbFile>
+  <yelloworbSrcX>0</yelloworbSrcX>
+  <yelloworbSrcY>0</yelloworbSrcY>
+  <yelloworbWidth>32</yelloworbWidth>
+  <yelloworbHeight>32</yelloworbHeight>
+  <yelloworbLoc yelloworbX="400" yelloworbY="400"/>
+  <yelloworbSpeed yelloworbXspeed="300" yelloworbYspeed="300"/>
+  <yelloworbMaxSpeed yelloworbMaxXspeed="300" yelloworbMaxYspeed="300"/>
+  <yelloworbTransparency>true</yelloworbTransparency>
+</yelloworb>
+
+</GameData>

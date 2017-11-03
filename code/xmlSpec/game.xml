@@ -1,0 +1,193 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>800</viewWidth>
+  <viewHeight>600</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>10000</worldWidth>
+  <worldHeight>700</worldHeight>
+</screen>
+
+<Font name="font">
+  <font>font/FreeSerifBold.ttf</font>
+  <fontSize>20</fontSize>
+</Font>
+<maxStringSize>50</maxStringSize>
+
+<background>
+  <backgroundFile>images/sky_800.png</backgroundFile>
+  <backgroundWidth>800</backgroundWidth>
+  <backgroundHeight>464</backgroundHeight>
+  <backgroundSrcX>0</backgroundSrcX>
+  <backgroundSrcY>200</backgroundSrcY>
+</background>
+
+<foreground>
+  <foregroundFile>images/big_jungle.png</foregroundFile>
+  <foregroundWidth>800</foregroundWidth>
+  <foregroundHeight>700</foregroundHeight>
+  <foregroundSrcX>0</foregroundSrcX>
+  <foregroundSrcY>0</foregroundSrcY>
+</foreground>
+
+<winScreen>images/winScreen.jpg</winScreen>
+<overScreen>images/overScreen.jpg</overScreen>
+<creditsScreen>images/menuCredits.png</creditsScreen>
+<helpScreen>images/menuHelp.png</helpScreen>
+<tutorialScreen>images/menuTutorial.png</tutorialScreen>
+
+<stoptruck>
+  <stoptruckFile>images/stoptruck.png</stoptruckFile>
+  <stoptruckSrcX>0</stoptruckSrcX>
+  <stoptruckSrcY>0</stoptruckSrcY>
+  <stoptruckWidth>200</stoptruckWidth>
+  <stoptruckHeight>132</stoptruckHeight>
+  <stoptruckLoc stoptruckX="800" stoptruckY="520"/>
+  <stoptruckSpeed stoptruckXspeed="0" stoptruckYspeed="0"/>
+  <stoptruckMaxSpeed stoptruckMaxXspeed="300" stoptruckMaxYspeed="300"/>
+  <stoptruckTransparency>true</stoptruckTransparency>
+</stoptruck>
+
+<craft>
+  <craftFile>images/craft.png</craftFile>
+  <craftFrameNum>16</craftFrameNum>
+  <craftWidth>2256</craftWidth>
+  <craftHeight>129</craftHeight>
+  <craftSrcX>0</craftSrcX>
+  <craftSrcY>0</craftSrcY>
+  <craftInterval>10</craftInterval>
+  <craftLoc craftX="100" craftY="400"/>
+  <craftSpeed craftXspeed="0" craftYspeed="0" />
+  <craftMaxSpeed craftMaxXspeed="350" craftMaxYspeed="300" />
+</craft>
+
+<ufo>
+  <ufoFile>images/ufo.png</ufoFile>
+  <ufoFrameNum>12</ufoFrameNum>
+  <ufoWidth>2044</ufoWidth>
+  <ufoHeight>100</ufoHeight>
+  <ufoSrcX>0</ufoSrcX>
+  <ufoSrcY>0</ufoSrcY>
+  <ufoInterval>10</ufoInterval>
+  <ufoLoc ufoX="10" ufoY="40"/>
+  <ufoSpeed ufoXspeed="200" ufoYspeed="0" />
+  <ufoMaxSpeed ufoMaxXspeed="350" ufoMaxYspeed="300" />
+</ufo>
+
+<soldier>
+  <soldierFile>images/soldier.png</soldierFile>
+  <soldierFrameNum>12</soldierFrameNum>
+  <soldierWidth>900</soldierWidth>
+  <soldierHeight>85</soldierHeight>
+  <soldierSrcX>0</soldierSrcX>
+  <soldierSrcY>0</soldierSrcY>
+  <soldierInterval>15</soldierInterval>
+  <soldierLoc soldierX="10" soldierY="545"/>
+  <soldierSpeed soldierXspeed="150" soldierYspeed="0" />
+  <soldierMaxSpeed soldierMaxXspeed="350" soldierMaxYspeed="300" />
+</soldier>
+
+<shootsoldier>
+  <shootsoldierFile>images/shootsoldier.png</shootsoldierFile>
+  <shootsoldierFrameNum>8</shootsoldierFrameNum>
+  <shootsoldierWidth>500</shootsoldierWidth>
+  <shootsoldierHeight>98</shootsoldierHeight>
+  <shootsoldierSrcX>0</shootsoldierSrcX>
+  <shootsoldierSrcY>0</shootsoldierSrcY>
+  <shootsoldierInterval>10</shootsoldierInterval>
+  <shootsoldierLoc shootsoldierX="1000" shootsoldierY="545"/>
+  <shootsoldierSpeed shootsoldierXspeed="0" shootsoldierYspeed="0" />
+  <shootsoldierMaxSpeed shootsoldierMaxXspeed="350" shootsoldierMaxYspeed="300" />
+</shootsoldier>
+
+<truck>
+  <truckFile>images/truck.png</truckFile>
+  <truckFrameNum>4</truckFrameNum>
+  <truckWidth>665</truckWidth>
+  <truckHeight>106</truckHeight>
+  <truckSrcX>0</truckSrcX>
+  <truckSrcY>0</truckSrcY>
+  <truckInterval>10</truckInterval>
+  <truckLoc truckX="10" truckY="530"/>
+  <truckSpeed truckXspeed="350" truckYspeed="0" />
+  <truckMaxSpeed truckMaxXspeed="350" truckMaxYspeed="300" />
+</truck>
+
+<dictator>
+  <dictatorFile>images/dictator.png</dictatorFile>
+  <dictatorFrameNum>11</dictatorFrameNum>
+  <dictatorWidth>820</dictatorWidth>
+  <dictatorHeight>100</dictatorHeight>
+  <dictatorSrcX>0</dictatorSrcX>
+  <dictatorSrcY>0</dictatorSrcY>
+  <dictatorInterval>10</dictatorInterval>
+  <dictatorLoc dictatorX="600" dictatorY="535"/>
+  <dictatorSpeed dictatorXspeed="0" dictatorYspeed="0"/>
+  <dictatorMaxSpeed dictatorMaxXspeed="350" dictatorMaxYspeed="300"/>
+</dictator>
+
+<mine>
+  <mineFile>images/mine.png</mineFile>
+  <mineFrameNum>8</mineFrameNum>
+  <mineWidth>290</mineWidth>
+  <mineHeight>33</mineHeight>
+  <mineSrcX>0</mineSrcX>
+  <mineSrcY>0</mineSrcY>
+  <mineInterval>10</mineInterval>
+  <mineLoc mineX="600" mineY="535"/>
+  <mineSpeed mineXspeed="100" mineYspeed="100"/>
+  <mineMaxSpeed mineMaxXspeed="350" mineMaxYspeed="300"/>
+</mine>
+
+<lsystem>
+  <lsystemSrcX>0</lsystemSrcX>
+  <lsystemSrcY>0</lsystemSrcY>
+  <lsystemWidth>100</lsystemWidth>
+  <lsystemHeight>150</lsystemHeight>
+  <lsystemLoc lsystemX="600" lsystemY="500"/>
+  <lsystemSpeed lsystemXspeed="0" lsystemYspeed="0"/>
+  <lsystemMaxSpeed lsystemMaxXspeed="400" lsystemMaxYspeed="400"/>
+  <lsystemTransparency>true</lsystemTransparency>
+</lsystem>
+
+<orbChunk>
+  <orbChunkFile>images/redball.bmp</orbChunkFile>
+  <orbChunkSrcX>0</orbChunkSrcX>
+  <orbChunkSrcY>0</orbChunkSrcY>
+  <orbChunkWidth>32</orbChunkWidth>
+  <orbChunkHeight>32</orbChunkHeight>
+  <orbChunkLoc orbChunkX="10" orbChunkY="10"/>
+  <orbChunkSpeed orbChunkXspeed="250" orbChunkYspeed="250"/>
+  <orbChunkMaxSpeed orbChunkMaxXspeed="350" orbChunkMaxYspeed="300"/>
+  <orbChunkTransparency>true</orbChunkTransparency>
+  <orbChunkSize>30</orbChunkSize>
+  <orbChunkDistance>300</orbChunkDistance>
+</orbChunk>
+
+<player>
+  <playerSpeed playerXspeed="400" playerYspeed="400"/>
+</player>
+
+<bullet>
+  <bulletFile>images/bullet.png</bulletFile>
+  <enemyBulletFile>images/bullet.png</enemyBulletFile>
+  <bulletSrcX>0</bulletSrcX>
+  <bulletSrcY>0</bulletSrcY>
+  <bulletWidth>41</bulletWidth>
+  <bulletHeight>20</bulletHeight>
+  <enemyBulletWidth>14</enemyBulletWidth>
+  <enemyBulletHeight>22</enemyBulletHeight>
+  <!--notice that bullet shoud not have the X and Y position, it should appear at where someone shoot-->
+  <!--bulletLoc bulletX="800" bulletY="520"/-->
+  <bulletSpeed>550</bulletSpeed>
+  <bulletMaxSpeed bulletMaxXspeed="300" bulletMaxYspeed="300"/>
+  <bulletTransparency>true</bulletTransparency>
+  <bulletDistance>500</bulletDistance>
+  <bulletDelay>100</bulletDelay>
+</bullet>
+
+</GameData>
